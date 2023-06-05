@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-sacle=1.0">
+		<title>Advanced Fitness</title>
+		<link rel="stylesheet" href="../style.css">
+		<script src="https://kit.fontawesome.com/73b133cbe8.js" crossorigin="anonymous"></script>
+	</head>	
+
+	
+<body>
+	
+<section class="sub-header">
+	<nav>
+		<a href="../index.html"><img src="../Photos/logo.png"></a>
+		<div class="navlinks" id="NAVlinks">
+			<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="../index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="services.html">SERVICES</a></li>
+				<li><a href="forum.html">FORUM & FEEDBACK</a></li>
+				<li><a href="gallery.html">GALLERY</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+	</nav>
+		
+<h1>Programs</h1>
+	
+</section>
+<!--------------Facilities-------------->
+
+
+<section class="facilities">
+	<h1>Programs We Offer</h1>
+	<p> To help you plan your week right, we have developed three programs which after long studies and experiences proved to be very effective </p>
+
+	<div class="row">
+		<div class="course-col">
+			<h3>Two hours a day takes the Stress away</h3>
+			<p>This program is designed for people interested in following a healthy lifetstyle rather than body building program </p>
+		</div>
+		<div class="course-col">
+			<h3>One YES One NO</h3>
+			<p>This is an intermediate program followed by body builders mainly and consists of a planned consistent program done every Monday, Wednesday, and Friday </p>
+		</div>
+		<div class="course-col">
+			<h3>Daily Daily</h3>
+			<p>This Program is mainly dedicated for advanced body builders as it is a rough and strict program to help them get qualified for worlwide champioships and tournaments </p>
+		</div>
+	</div>
+</section>
+
+
+
+
+<section class="programs">
+
+	<h1>Nutritioning & Diet</h1>
+	<p>A good nutrition is key to a successful fitness journey</p>
+
+	<div class="row">
+		<div class="programs-col">
+			<img src="../Photos/Screenshot 2022-12-15 100725.jpg">
+			<h3>Bulking</h3>
+			<p>Bulking is known as the muscle-building stage, which calls for eating more calories than you burn, coupled with intense weight training for a set period of time</p>
+		</div>
+		<div class="programs-col">
+			<img src="../Photos/Screenshot 2022-12-15 100522.jpg">
+			<h3>Cutting</h3>
+			<p>The phase where you cut back on calories in an effort to shed body fat while maintaining muscle mass to the best of your ability. </p>
+		</div>
+		<div class="programs-col">
+			<img src="../Photos/Screenshot 2022-12-15 100416.jpg">
+			<h3>Maintaining</h3>
+			<p>Reverse dieting typically involves increasing calorie intake by 50–100 calories per week above your baseline, which is the number of calories you're currently consuming to maintain your weight. This period lasts 4 to 10 weeks, or until you reach your target, pre-diet intake</p>
+		</div>
+	</div>
+
+</section>`
+
+<!-------------FOOTER---------------->
+
+
+<section class="foot">
+	<h4>About Us</h4>
+	<p>We are a fitness club that take your fitness goals to another level and help you achieve them in the most professional ways</p>
+	<div class="icons">
+		<i class="fa-brands fa-facebook"></i>
+		<i class="fa-brands fa-instagram"></i>
+		<i class="fa-brands fa-twitter"></i>
+		<i class="fa-solid fa-map"></i>
+	</div>
+</section>
+
+
+	<!--------JavaScript for Toggle Menu-------->
+<script>
+		var NAVlinks=document.getElementById("NAVlinks");
+		
+		function showMenu(){
+			NAVlinks.style.right="0";
+		}
+		function hideMenu(){
+			NAVlinks.style.right="-200px";
+		}
+	</script>
+</body>
+</html>

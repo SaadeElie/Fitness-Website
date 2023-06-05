@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-sacle=1.0">
+		<title>Advanced Fitness</title>
+		<link rel="stylesheet" href="../style.css">
+		<script src="https://kit.fontawesome.com/73b133cbe8.js" crossorigin="anonymous"></script>
+	</head>
+
+	
+<body>
+	
+<section class="sub-header">
+	<nav>
+		<a href="../index.html"><img src="../Photos/logo.png"></a>
+		<div class="navlinks" id="NAVlinks">
+			<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="../index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="services.html">SERVICES</a></li>
+				<li><a href="forum.html">FORUM & FEEDBACK</a></li>
+				<li><a href="gallery.html">GALLERY</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+	</nav>
+		
+<h1>About Us</h1>
+	
+</section>
+<!--------------About us-------------->
+
+<section class="about-us">
+	<div class="row">
+		<div class="about-col">
+			<h1>Who are we?</h1>
+			<p>
+				We are a fitness club that take your fitness goals to another level and help you achieve them in the most professional ways. <br><br>Advance Fitness Gym & Club was founded in 2019 with the begining of the severe economic crisis in Lebanon having a goal to create job opportunities for the youth and an escape for everyone who desires to challenge all the difficulties and resfresh their blood. <br><br> Our members are our first priority and their health is our responsibilty, this is why we have engaged the most professional team to help you throughout your journey.
+			</p>
+			<a href="" class="herobtn red-btn">EXPLORE NOW</a>
+		</div>
+		<div class="about-col">
+			<img src="../Photos/istockphoto-1211886784-612x612.jpg">
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+<!-------------FOOTER---------------->
+
+
+<section class="foot">
+	<h4>About Us</h4>
+	<p>We are a fitness club that take your fitness goals to another level and help you achieve them in the most professional ways </p>
+	<div class="icons">
+		<i class="fa-brands fa-facebook"></i>
+		<i class="fa-brands fa-instagram"></i>
+		<i class="fa-brands fa-twitter"></i>
+		<i class="fa-solid fa-map"></i>
+	</div>
+</section>
+
+
+	<!--------JavaScript for Toggle Menu-------->
+<script>
+		var NAVlinks=document.getElementById("NAVlinks");
+		
+		function showMenu(){
+			NAVlinks.style.right="0";
+		}
+		function hideMenu(){
+			NAVlinks.style.right="-200px";
+		}
+	</script>
+</body>
+</html>

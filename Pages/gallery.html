@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-sacle=1.0">
+		<title>Advanced Fitness</title>
+		<link rel="stylesheet" href="../style.css">
+		<script src="https://kit.fontawesome.com/73b133cbe8.js" crossorigin="anonymous"></script>
+	</head>
+
+	
+<body>
+	
+<section class="sub-header">
+	<nav>
+		<a href="../index.html"><img src="../Photos/logo.png"></a>
+		<div class="navlinks" id="NAVlinks">
+			<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="../index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="services.html">SERVICES</a></li>
+				<li><a href="forum.html">FORUM & FEEDBACK</a></li>
+				<li><a href="gallery.html">GALLERY</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+	</nav>
+		
+<h1>Gallery</h1>
+</section>
+
+<!--------GALLERY---------->
+
+<section class="programs">
+
+	<div class="row">
+		<div class="programs-col">
+			<a target="_blank" href="../Photos/istockphoto-520999573-612x612.jpg"><img src="../Photos/istockphoto-520999573-612x612.jpg"></a>
+		</div>
+		<div class="programs-col">
+			<a target="_blank" href="../Photos/istockphoto-186796889-612x612.jpg"><img src="../Photos/istockphoto-186796889-612x612.jpg"></a>
+		</div>
+		<div class="programs-col">
+			<a target="_blank" href="../Photos/istockphoto-1174864492-612x612.jpg"><img src="../Photos/istockphoto-1174864492-612x612.jpg"></a>
+		</div>
+	</div>
+
+</section>
+<section class="programs">
+
+	<div class="row">
+		<div class="programs-col">
+			<a target="_blank" href="../Photos/istockphoto-1212887517-612x612.jpg"><img src="../Photos/istockphoto-1212887517-612x612.jpg"></a>
+		</div>
+		<div class="programs-col">
+			<a target="_blank" href="../Photos/Screenshot 2022-12-15 100522.jpg"><img src="../Photos/Screenshot 2022-12-15 100522.jpg"></a>
+		</div>
+		<div class="programs-col">
+			<a target="_blank" href="../Photos/qatar-doha-july-official-adidas-fifa-world-cup-football-ball-al-rihla-championship-soccer-match-green-grass-night-stadium-251777861.jpg"><img src="../Photos/qatar-doha-july-official-adidas-fifa-world-cup-football-ball-al-rihla-championship-soccer-match-green-grass-night-stadium-251777861.jpg"></a>
+		</div>
+	</div>
+
+</section>
+
+<!-------------FOOTER---------------->
+
+
+<section class="foot">
+	<h4>About Us</h4>
+	<p>We are a fitness club that take your fitness goals to another level and help you achieve them in the most professional ways </p>
+	<div class="icons">
+		<i class="fa-brands fa-facebook"></i>
+		<i class="fa-brands fa-instagram"></i>
+		<i class="fa-brands fa-twitter"></i>
+		<i class="fa-solid fa-map"></i>
+	</div>
+</section>
+
+
+	<!--------JavaScript for Toggle Menu-------->
+<script>
+		var NAVlinks=document.getElementById("NAVlinks");
+		
+		function showMenu(){
+			NAVlinks.style.right="0";
+		}
+		function hideMenu(){
+			NAVlinks.style.right="-200px";
+		}
+	</script>
+</body>
+</html>
